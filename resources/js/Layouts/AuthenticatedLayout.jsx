@@ -81,15 +81,6 @@ export default function Authenticated({ header, children }) {
                                 </Link>
                             ),
                         },
-                        {
-                            key: "contacts",
-                            icon: <UsergroupAddOutlined />,
-                            label: (
-                                <Link href={window.route("contacts.index")}>
-                                    Contacts
-                                </Link>
-                            ),
-                        },
                     ]}
                 />
             </Sider>
