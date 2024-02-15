@@ -64,7 +64,7 @@ export default function Authenticated({ header, children }) {
             <Sider trigger={null} collapsible collapsed={collapsed}>
                 <div className="logo">
                     <Typography.Title className="logo-text" level={3}>
-                        {collapsed ? "MSR" : "Web App"}
+                        {collapsed ? "SLN" : "CUSTOMER APP"}
                     </Typography.Title>
                 </div>
                 <Menu

@@ -7,7 +7,7 @@ function Dashboard(props) {
         <>
             <Head title="Dashboard" />
 
-            <Card title={`Welcome, ${props.auth.user.name}`}>
+            <Card title={`WELCOME TO SLN DEVELOPERS`}>
                 <Typography.Text>You're logged in!</Typography.Text>
             </Card>
         </>
